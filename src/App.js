@@ -2,6 +2,7 @@ import React from 'react'
 import Player from './Player/Player'
 import PlayerForm from './PlayerForm/PlayerForm'
 import GameForm from './GameForm/GameForm'
+import Navigation from './Navigation/Navigation'
 import './App.css'
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       ))}
       <button onClick={resetScores}>Reset scores</button>
       <button onClick={resetAll}>Reset all</button> 
+      <Navigation 
+        activeIndex={0}
+        onNavigate={() => console.log('onNavigate')} />
     </div>
   )
 
