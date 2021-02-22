@@ -1,0 +1,23 @@
+* {
+    box-sizing:border-box;
+}
+
+.PlayerForm {
+    padding: 15px;
+}
+
+.PlayerForm__label {
+    display: block;
+}
+
+input {
+    border:0;
+    border-bottom:1px solid #eee;
+}
+
+input[type=text] {
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
